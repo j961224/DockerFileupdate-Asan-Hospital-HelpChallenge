@@ -9,9 +9,8 @@ WORKDIR $SRC_DIR
 RUN chmod +x ./train.sh ./inference.sh
 RUN pip install keras
 RUN pip install nibabel
-RUN pip install tqdm
 RUN pip install matplotlib
-RUN pip install skimage
+
 
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt

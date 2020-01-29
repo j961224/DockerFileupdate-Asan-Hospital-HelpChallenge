@@ -6,8 +6,8 @@ COPY src $SRC_DIR
 WORKDIR $SRC_DIR
 
 RUN apt-get update
-RUN apt-get install -y autoconf \
-											python-pip \
+RUN apt-get install -y python-pip 
+											
                       
 
 RUN pip install keras

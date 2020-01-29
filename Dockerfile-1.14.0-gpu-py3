@@ -6,11 +6,7 @@ COPY src $SRC_DIR
 WORKDIR $SRC_DIR
 
 
-											
-                      
-
+RUN chmod +x ./train.sh ./inference.sh
 RUN pip install keras
 RUN pip install nibabel
-
-RUN chmod +x ./train.sh ./inference.sh
 RUN pip install -r requirements.txt

@@ -10,6 +10,7 @@ RUN apt-get install -y -q python-all python-pip
 
 
 RUN chmod +x ./train.sh ./inference.sh
+RUN pip install pytest
 RUN pip install keras
 RUN pip install nibabel
 RUN pip install matplotlib

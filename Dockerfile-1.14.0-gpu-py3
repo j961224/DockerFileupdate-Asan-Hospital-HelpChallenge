@@ -10,6 +10,7 @@ RUN chmod +x ./train.sh ./inference.sh
 RUN pip install keras
 RUN pip install nibabel
 RUN pip install matplotlib
+RUN pip install itertools
 RUN pip install -U --pre segmentation-models
 RUN pip install -U albumentations>=0.3.0 --user
 

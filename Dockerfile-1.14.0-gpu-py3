@@ -6,7 +6,7 @@ COPY src $SRC_DIR
 WORKDIR $SRC_DIR
 
 
-RUN pip install --upgrade pip
+
 
 
 RUN chmod +x ./train.sh ./inference.sh

@@ -16,5 +16,6 @@ RUN pip install matplotlib
 RUN pip install SimpleITK
 RUN pip install pandas
 RUN pip install keras-unet
+RUN pip install scikit-image
 
 RUN pip install -r requirements.txt
